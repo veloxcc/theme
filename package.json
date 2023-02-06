@@ -1,0 +1,39 @@
+{
+  "name": "velox-theme",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Theme for VELO X",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "baseui": "^12.2.0",
+    "styletron-engine-atomic": "^1.5.0",
+    "styletron-react": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack4": "^6.5.15",
+    "@storybook/manager-webpack4": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "parcel": "^2.8.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 19",
+    "react-dom": ">= 16.8.0 < 19"
+  }
+}
